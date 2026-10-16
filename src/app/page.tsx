@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { PRODUCTS, orderLink } from "./data/products";
+import ShopSection from "./ShopSection";
 
 export default function Home() {
   return (
@@ -68,52 +68,15 @@ export default function Home() {
         </p>
       </section>
 
-      {/* ── Product grid ────────────────────────────────── */}
-      <section id="shop" className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
-        <h2 className="text-center text-3xl font-black tracking-tight text-white sm:text-4xl">
-          THE COLLECTION
-        </h2>
-        <p className="mx-auto mt-3 max-w-lg text-center text-sm text-zinc-500">
-          Made to order. Ships from Canada.
+      {/* ── Marquee divider ───────────────────────────── */}
+      <div className="overflow-hidden border-y border-white/10 bg-[#7c3aed]/10 py-3">
+        <p className="whitespace-nowrap text-center text-sm font-black tracking-[0.35em] text-white/80">
+          BEYOND THE UNKNOWN ✦ XENO ✦ BEYOND THE UNKNOWN ✦ XENO ✦ BEYOND THE UNKNOWN ✦ XENO
         </p>
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {PRODUCTS.map((p) => {
-            const buyHref = p.checkoutUrl ? p.checkoutUrl : orderLink(p.name);
-            return (
-              <article
-                key={p.id}
-                className="product-card overflow-hidden rounded-2xl border border-white/10 bg-zinc-950/80"
-              >
-                <div className="relative aspect-square w-full overflow-hidden bg-zinc-900">
-                  <Image
-                    src={p.image}
-                    alt={p.name}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                </div>
-                <div className="p-5">
-                  <h3 className="text-base font-bold text-white">{p.name}</h3>
-                  <p className="mt-1 text-sm text-zinc-500">{p.tagline}</p>
-                  <div className="mt-4 flex items-center justify-between">
-                    <span className="text-xl font-black text-[#22ff88]">
-                      ${p.price}
-                      <span className="ml-1 text-xs font-semibold text-zinc-500">CAD</span>
-                    </span>
-                    <a
-                      href={buyHref}
-                      className="rounded-full border border-[#7c3aed] px-6 py-2 text-sm font-bold text-white transition hover:bg-[#7c3aed]"
-                    >
-                      Buy
-                    </a>
-                  </div>
-                </div>
-              </article>
-            );
-          })}
-        </div>
-      </section>
+      </div>
+
+      {/* ── Product grid ────────────────────────────────── */}
+      <ShopSection />
 
       {/* ── About ───────────────────────────────────────── */}
       <section id="about" className="border-y border-white/10 bg-zinc-950/60 px-4 py-20 sm:py-28">
