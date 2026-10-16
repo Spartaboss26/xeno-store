@@ -48,7 +48,7 @@ export const PRODUCTS: Product[] = [
     image: "/streetwear-hoodie.png",
     tagline: "Heavyweight. Built for the cold unknown.",
     category: "Hoodies",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Streetwear+Heavyweight+Hoodie&amount=55.00&currency_code=CAD",
   },
   {
     id: "oversize-fleeced-hoodie",
@@ -57,7 +57,7 @@ export const PRODUCTS: Product[] = [
     image: "/oversize-fleeced-hoodie.png",
     tagline: "Oversized fit, fleeced inside. Maximum comfort.",
     category: "Hoodies",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Oversize+Fleeced+Hoodie&amount=48.00&currency_code=CAD",
   },
   {
     id: "gdwd-hoodie",
@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
     image: "/gdwd-hoodie.png",
     tagline: "Go hard or go home. Our heaviest hitter.",
     category: "Hoodies",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+GDWD+Heavyweight+Hoodie&amount=60.00&currency_code=CAD",
   },
   {
     id: "never-stop-tee",
@@ -75,7 +75,7 @@ export const PRODUCTS: Product[] = [
     image: "/never-stop-tee.png",
     tagline: "The mantra. Never stop.",
     category: "Tees",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Never+Stop+Oversized+T-Shirt&amount=35.00&currency_code=CAD",
   },
   {
     id: "classic-tee",
@@ -84,7 +84,7 @@ export const PRODUCTS: Product[] = [
     image: "/classic-tee.png",
     tagline: "The original. Clean and essential.",
     category: "Tees",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Classic+T-Shirt&amount=32.00&currency_code=CAD",
   },
   {
     id: "essential-cotton-tee",
@@ -93,7 +93,7 @@ export const PRODUCTS: Product[] = [
     image: "/essential-cotton-tee.png",
     tagline: "Everyday essential, alien standard.",
     category: "Tees",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Essential+Cotton+T-Shirt&amount=30.00&currency_code=CAD",
   },
   {
     id: "trust-process-tee",
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
     image: "/trust-process-tee.png",
     tagline: "Trust the process. The unknown rewards patience.",
     category: "Tees",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Trust+The+Process+T-Shirt&amount=28.00&currency_code=CAD",
   },
   {
     id: "essential-heavyweight-vest",
@@ -111,7 +111,7 @@ export const PRODUCTS: Product[] = [
     image: "/essential-heavyweight-vest.png",
     tagline: "Sleeveless armor for the unknown.",
     category: "Tops",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Essential+Heavyweight+Vest&amount=58.00&currency_code=CAD",
   },
   {
     id: "snow-washed-raw-hem-tank",
@@ -120,7 +120,7 @@ export const PRODUCTS: Product[] = [
     image: "/snow-washed-raw-hem-tank.png",
     tagline: "Raw edges. Washed in static.",
     category: "Tops",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Snow+Washed+Raw-Hem+Tank+Top&amount=47.00&currency_code=CAD",
   },
   {
     id: "vintage-wash-denim-jacket",
@@ -129,7 +129,7 @@ export const PRODUCTS: Product[] = [
     image: "/vintage-wash-denim-jacket.png",
     tagline: "Denim from another dimension.",
     category: "More",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Vintage+Wash+Denim+Jacket&amount=94.00&currency_code=CAD",
   },
   {
     id: "sun-fade-boxy-fur-hoodie",
@@ -138,7 +138,7 @@ export const PRODUCTS: Product[] = [
     image: "/sun-fade-boxy-fur-hoodie.png",
     tagline: "Fur-trimmed. Signal-proof.",
     category: "Hoodies",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Sun+Fade+Boxy+Fur+Hoodie&amount=104.00&currency_code=CAD",
   },
   {
     id: "xeno-kingdom-crew",
@@ -147,7 +147,7 @@ export const PRODUCTS: Product[] = [
     image: "/xeno-kingdom-crew.png",
     tagline: "Rep the kingdom.",
     category: "More",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Kingdom+Crew+Sweatshirt&amount=52.00&currency_code=CAD",
   },
   {
     id: "never-stop-sun-dress",
@@ -156,7 +156,7 @@ export const PRODUCTS: Product[] = [
     image: "/never-stop-sun-dress.png",
     tagline: "Never stop, even in sunlight.",
     category: "More",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Never+Stop+Women%27s+Sun+Dress&amount=30.00&currency_code=CAD",
   },
   {
     id: "define-your-own-hoodie",
@@ -165,7 +165,7 @@ export const PRODUCTS: Product[] = [
     image: "/define-your-own-hoodie.png",
     tagline: "Define your own. Heavyweight.",
     category: "Hoodies",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Define+Your+Own+Heavyweight+Hoodie&amount=56.00&currency_code=CAD",
   },
   {
     id: "womens-cropped-sports-bra",
@@ -174,7 +174,7 @@ export const PRODUCTS: Product[] = [
     image: "/womens-cropped-sports-bra.png",
     tagline: "Train like they're watching.",
     category: "Tops",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Women%27s+Cropped+Sports+Bra&amount=61.00&currency_code=CAD",
   },
   {
     id: "snow-washed-loose-hoodie",
@@ -183,7 +183,7 @@ export const PRODUCTS: Product[] = [
     image: "/snow-washed-loose-hoodie.png",
     tagline: "Loose fit, heavy signal.",
     category: "Hoodies",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Snow+Washed+Loose+Cotton+Hoodie&amount=72.00&currency_code=CAD",
   },
   {
     id: "vintage-washed-frayed-hoodie",
@@ -192,7 +192,7 @@ export const PRODUCTS: Product[] = [
     image: "/vintage-washed-frayed-hoodie.png",
     tagline: "Frayed by the void.",
     category: "Hoodies",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Vintage+Washed+Frayed-Hem+Hoodie&amount=80.00&currency_code=CAD",
   },
   {
     id: "trust-process-wide-leg-shorts",
@@ -201,7 +201,7 @@ export const PRODUCTS: Product[] = [
     image: "/trust-process-wide-leg-shorts.png",
     tagline: "Trust the process, legs out.",
     category: "More",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Trust+The+Process+Wide+Leg+Shorts&amount=77.00&currency_code=CAD",
   },
   {
     id: "staple-cotton-pullover",
@@ -210,7 +210,7 @@ export const PRODUCTS: Product[] = [
     image: "/staple-cotton-pullover.png",
     tagline: "The staple. 100% cotton.",
     category: "Tops",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Staple+Cotton+Pullover&amount=32.00&currency_code=CAD",
   },
   {
     id: "essential-ribbed-tee",
@@ -219,7 +219,7 @@ export const PRODUCTS: Product[] = [
     image: "/essential-ribbed-tee.png",
     tagline: "Ribbed. Essential. Alien-approved.",
     category: "Tees",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Essential+Ribbed+T-Shirt&amount=30.00&currency_code=CAD",
   },
   {
     id: "boxy-net-tee",
@@ -228,7 +228,7 @@ export const PRODUCTS: Product[] = [
     image: "/boxy-net-tee.png",
     tagline: "Net layer. Transmission visible.",
     category: "Tees",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Boxy+Net+T-Shirt&amount=46.00&currency_code=CAD",
   },
   {
     id: "performance-tee",
@@ -237,6 +237,6 @@ export const PRODUCTS: Product[] = [
     image: "/performance-tee.png",
     tagline: "Built to move.",
     category: "Tees",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Performance+T-Shirt&amount=30.00&currency_code=CAD",
   },
 ];
