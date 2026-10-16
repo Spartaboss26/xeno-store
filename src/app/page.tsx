@@ -7,8 +7,17 @@ export default function Home() {
       {/* ── Nav ─────────────────────────────────────────── */}
       <header className="fixed top-0 inset-x-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur-md">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
-          <a href="#top" className="text-xl font-black tracking-[0.25em] text-white">
-            XENO
+          <a href="#top" className="flex items-center gap-3">
+            <Image
+              src="/brand/logo-brush-x.png"
+              alt="XENO"
+              width={40}
+              height={40}
+              className="invert"
+            />
+            <span className="text-xl font-black tracking-[0.25em] text-white">
+              XENO
+            </span>
           </a>
           <div className="flex items-center gap-4 text-sm font-semibold sm:gap-6">
             <a href="#shop" className="text-zinc-300 transition hover:text-white">
@@ -26,6 +35,16 @@ export default function Home() {
 
       {/* ── Hero ────────────────────────────────────────── */}
       <section id="top" className="hero-glow relative flex min-h-screen flex-col items-center justify-center px-4 pt-16 text-center">
+        <div className="mb-8 overflow-hidden rounded-3xl border border-white/10 shadow-[0_0_64px_rgba(124,58,237,0.35)]">
+          <Image
+            src="/brand/logo-alien-xeno.png"
+            alt="XENO alien mark"
+            width={220}
+            height={220}
+            className="h-44 w-44 object-cover sm:h-56 sm:w-56"
+            priority
+          />
+        </div>
         <p className="mb-4 text-xs font-bold tracking-[0.5em] text-[#22ff88] text-glow-green sm:text-sm">
           TRANSMISSION INCOMING
         </p>
@@ -119,6 +138,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Brand marks ───────────────────────────────── */}
+      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
+        <p className="text-center text-xs font-bold tracking-[0.5em] text-[#22ff88]">THE MARKS</p>
+        <h2 className="mt-4 text-center text-3xl font-black tracking-tight text-white sm:text-4xl">
+          Worn by the unknown.
+        </h2>
+        <p className="mx-auto mt-3 max-w-lg text-center text-sm text-zinc-500">
+          Every mark is drawn by hand. No templates, no stock.
+        </p>
+        <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+          {[
+            { src: "/brand/logo-brush-xeno.png", alt: "XENO brush logo", invert: true },
+            { src: "/brand/logo-ufo-script.png", alt: "UFO script logo", invert: true },
+            { src: "/brand/logo-brush-x.png", alt: "X brush mark", invert: true },
+            { src: "/brand/logo-xeno-clothing-mask.png", alt: "XENO Clothing mask logo", invert: false },
+            { src: "/brand/logo-xk-circle.png", alt: "XK monogram circle", invert: false },
+            { src: "/brand/logo-xk-bold.png", alt: "XK monogram", invert: false },
+            { src: "/brand/logo-xk-outline.png", alt: "XK outline monogram", invert: false },
+            { src: "/brand/logo-xk-diamond.png", alt: "XK diamond monogram", invert: false },
+            { src: "/brand/logo-xeno-red.png", alt: "XENO red serif logo", invert: false, light: true },
+            { src: "/brand/logo-alien-xeno.png", alt: "XENO alien logo", invert: false },
+          ].map((m) => (
+            <div
+              key={m.src}
+              className={`flex aspect-square items-center justify-center overflow-hidden rounded-2xl border border-white/10 p-4 ${m.light ? "bg-white" : "bg-zinc-950/80"}`}
+            >
+              <Image
+                src={m.src}
+                alt={m.alt}
+                width={200}
+                height={200}
+                className={`h-full w-full object-contain ${m.invert ? "invert" : ""}`}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* ── Contact ─────────────────────────────────────── */}
       <section id="contact" className="mx-auto max-w-3xl px-4 py-20 text-center sm:py-28">
         <p className="text-xs font-bold tracking-[0.5em] text-[#22ff88]">MAKE CONTACT</p>
@@ -139,8 +196,16 @@ export default function Home() {
 
       {/* ── Footer ──────────────────────────────────────── */}
       <footer className="border-t border-white/10 px-4 py-8 text-center">
-        <p className="text-sm font-black tracking-[0.25em] text-white">XENO</p>
-        <p className="mt-2 text-xs tracking-[0.2em] text-zinc-600">
+        <div className="mx-auto w-fit overflow-hidden rounded-xl">
+          <Image
+            src="/brand/logo-xeno-clothing-mask.png"
+            alt="XENO Clothing"
+            width={160}
+            height={160}
+            className="h-24 w-24 object-cover"
+          />
+        </div>
+        <p className="mt-4 text-xs tracking-[0.2em] text-zinc-600">
           BEYOND THE UNKNOWN.
         </p>
         <p className="mt-4 text-xs text-zinc-700">
