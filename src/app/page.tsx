@@ -208,6 +208,17 @@ export default function Home() {
         <p className="mt-4 text-xs tracking-[0.2em] text-zinc-600">
           BEYOND THE UNKNOWN.
         </p>
+        <p className="mt-4 text-xs tracking-[0.2em] text-zinc-600">
+          FOLLOW THE SIGNAL
+        </p>
+        <a
+          href="https://www.instagram.com/xeno_world419"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 inline-block text-sm font-bold text-white transition hover:text-[#22ff88]"
+        >
+          Instagram — @xeno_world419
+        </a>
         <p className="mt-4 text-xs text-zinc-700">
           © 2026 BTOSTUDIO. All rights reserved.
         </p>
