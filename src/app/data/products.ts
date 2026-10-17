@@ -30,7 +30,7 @@ export interface Product {
   checkoutUrl: string;
 }
 
-const ORDER_EMAIL = "orriefoye6@gmail.com";
+const ORDER_EMAIL = "orrie@xenostreetware.ca";
 
 export function orderLink(productName: string): string {
   const subject = encodeURIComponent(`XENO order: ${productName}`);
