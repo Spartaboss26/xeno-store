@@ -149,10 +149,10 @@ export default function Home() {
           Email us — we answer everything personally.
         </p>
         <a
-          href="mailto:orriefoye6@gmail.com?subject=XENO%20inquiry"
+          href="mailto:orrie@xenostreetware.ca?subject=XENO%20inquiry"
           className="mt-8 inline-block rounded-full bg-white px-10 py-4 text-base font-bold text-black transition hover:bg-zinc-200"
         >
-          orriefoye6@gmail.com
+          orrie@xenostreetware.ca
         </a>
         <p className="mt-6 text-sm text-zinc-600">Brampton, Ontario, Canada</p>
       </section>
