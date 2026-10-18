@@ -48,7 +48,7 @@ export const PRODUCTS: Product[] = [
     image: "/streetwear-hoodie.png",
     tagline: "Heavyweight. Built for the cold unknown.",
     category: "Hoodies",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Streetwear+Heavyweight+Hoodie&amount=55.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/00w9AM0bubHU9XL2sWdwc00",
   },
   {
     id: "oversize-fleeced-hoodie",
@@ -57,7 +57,7 @@ export const PRODUCTS: Product[] = [
     image: "/oversize-fleeced-hoodie.png",
     tagline: "Oversized fit, fleeced inside. Maximum comfort.",
     category: "Hoodies",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Oversize+Fleeced+Hoodie&amount=48.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/4gM5kw7DWbHU6LzaZsdwc01",
   },
   {
     id: "gdwd-hoodie",
@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
     image: "/gdwd-hoodie.png",
     tagline: "Go hard or go home. Our heaviest hitter.",
     category: "Hoodies",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+GDWD+Heavyweight+Hoodie&amount=60.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/9B64gs4rK8vIc5T9Vodwc02",
   },
   {
     id: "never-stop-tee",
@@ -75,7 +75,7 @@ export const PRODUCTS: Product[] = [
     image: "/never-stop-tee.png",
     tagline: "The mantra. Never stop.",
     category: "Tees",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Never+Stop+Oversized+T-Shirt&amount=35.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/cNi8wI2jC5jw6LzffIdwc03",
   },
   {
     id: "classic-tee",
@@ -84,7 +84,7 @@ export const PRODUCTS: Product[] = [
     image: "/classic-tee.png",
     tagline: "The original. Clean and essential.",
     category: "Tees",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Classic+T-Shirt&amount=32.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/5kQ3co6zS7rE5HvebEdwc04",
   },
   {
     id: "essential-cotton-tee",
@@ -93,7 +93,7 @@ export const PRODUCTS: Product[] = [
     image: "/essential-cotton-tee.png",
     tagline: "Everyday essential, alien standard.",
     category: "Tees",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Essential+Cotton+T-Shirt&amount=30.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/8x23co6zSfYa5Hv1oSdwc05",
   },
   {
     id: "trust-process-tee",
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
     image: "/trust-process-tee.png",
     tagline: "Trust the process. The unknown rewards patience.",
     category: "Tees",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Trust+The+Process+T-Shirt&amount=28.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/3cI3coe2k8vIee1aZsdwc06",
   },
   {
     id: "essential-heavyweight-vest",
@@ -111,7 +111,7 @@ export const PRODUCTS: Product[] = [
     image: "/essential-heavyweight-vest.png",
     tagline: "Sleeveless armor for the unknown.",
     category: "Tops",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Essential+Heavyweight+Vest&amount=58.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/dRm14ge2keU6fi56Jcdwc07",
   },
   {
     id: "snow-washed-raw-hem-tank",
@@ -120,7 +120,7 @@ export const PRODUCTS: Product[] = [
     image: "/snow-washed-raw-hem-tank.png",
     tagline: "Raw edges. Washed in static.",
     category: "Tops",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Snow+Washed+Raw-Hem+Tank+Top&amount=47.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/28EaEQf6o27k7PD2sWdwc08",
   },
   {
     id: "vintage-wash-denim-jacket",
@@ -129,7 +129,7 @@ export const PRODUCTS: Product[] = [
     image: "/vintage-wash-denim-jacket.png",
     tagline: "Denim from another dimension.",
     category: "More",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Vintage+Wash+Denim+Jacket&amount=94.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/5kQaEQf6o3boc5T5F8dwc09",
   },
   {
     id: "sun-fade-boxy-fur-hoodie",
@@ -138,7 +138,7 @@ export const PRODUCTS: Product[] = [
     image: "/sun-fade-boxy-fur-hoodie.png",
     tagline: "Fur-trimmed. Signal-proof.",
     category: "Hoodies",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Sun+Fade+Boxy+Fur+Hoodie&amount=104.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/3cIcMY0buh2eb1PebEdwc0a",
   },
   {
     id: "xeno-kingdom-crew",
@@ -147,7 +147,7 @@ export const PRODUCTS: Product[] = [
     image: "/xeno-kingdom-crew.png",
     tagline: "Rep the kingdom.",
     category: "More",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Kingdom+Crew+Sweatshirt&amount=52.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/8x228kaQ8eU60nb7Ngdwc0b",
   },
   {
     id: "never-stop-sun-dress",
@@ -156,7 +156,7 @@ export const PRODUCTS: Product[] = [
     image: "/never-stop-sun-dress.png",
     tagline: "Never stop, even in sunlight.",
     category: "More",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Never+Stop+Women%27s+Sun+Dress&amount=30.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/8x29AM1fyaDQb1P6Jcdwc0c",
   },
   {
     id: "define-your-own-hoodie",
@@ -165,7 +165,7 @@ export const PRODUCTS: Product[] = [
     image: "/define-your-own-hoodie.png",
     tagline: "Define your own. Heavyweight.",
     category: "Hoodies",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Define+Your+Own+Heavyweight+Hoodie&amount=56.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/9B6dR2bUccLY4Drc3wdwc0d",
   },
   {
     id: "womens-cropped-sports-bra",
@@ -174,7 +174,7 @@ export const PRODUCTS: Product[] = [
     image: "/womens-cropped-sports-bra.png",
     tagline: "Train like they're watching.",
     category: "Tops",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Women%27s+Cropped+Sports+Bra&amount=61.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/00w9AM8I0fYa2vjffIdwc0e",
   },
   {
     id: "snow-washed-loose-hoodie",
@@ -183,7 +183,7 @@ export const PRODUCTS: Product[] = [
     image: "/snow-washed-loose-hoodie.png",
     tagline: "Loose fit, heavy signal.",
     category: "Hoodies",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Snow+Washed+Loose+Cotton+Hoodie&amount=72.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/5kQdR20bu4fs0nbc3wdwc0f",
   },
   {
     id: "vintage-washed-frayed-hoodie",
@@ -192,7 +192,7 @@ export const PRODUCTS: Product[] = [
     image: "/vintage-washed-frayed-hoodie.png",
     tagline: "Frayed by the void.",
     category: "Hoodies",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Vintage+Washed+Frayed-Hem+Hoodie&amount=80.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/aFaaEQ9M4aDQ8THd7Adwc0g",
   },
   {
     id: "trust-process-wide-leg-shorts",
@@ -201,7 +201,7 @@ export const PRODUCTS: Product[] = [
     image: "/trust-process-wide-leg-shorts.png",
     tagline: "Trust the process, legs out.",
     category: "More",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Trust+The+Process+Wide+Leg+Shorts&amount=77.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/cNi3co1fyaDQ0nb1oSdwc0h",
   },
   {
     id: "staple-cotton-pullover",
@@ -210,7 +210,7 @@ export const PRODUCTS: Product[] = [
     image: "/staple-cotton-pullover.png",
     tagline: "The staple. 100% cotton.",
     category: "Tops",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Staple+Cotton+Pullover&amount=32.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/28EdR20bu9zM7PDffIdwc0i",
   },
   {
     id: "essential-ribbed-tee",
@@ -219,7 +219,7 @@ export const PRODUCTS: Product[] = [
     image: "/essential-ribbed-tee.png",
     tagline: "Ribbed. Essential. Alien-approved.",
     category: "Tees",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Essential+Ribbed+T-Shirt&amount=30.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/3cIcMY0buaDQ3zn4B4dwc0j",
   },
   {
     id: "boxy-net-tee",
@@ -228,7 +228,7 @@ export const PRODUCTS: Product[] = [
     image: "/boxy-net-tee.png",
     tagline: "Net layer. Transmission visible.",
     category: "Tees",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Boxy+Net+T-Shirt&amount=46.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/14A9AMcYgcLY2vj5F8dwc0k",
   },
   {
     id: "performance-tee",
@@ -237,6 +237,6 @@ export const PRODUCTS: Product[] = [
     image: "/performance-tee.png",
     tagline: "Built to move.",
     category: "Tees",
-    checkoutUrl: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=orriefoye6%40gmail.com&item_name=XENO+Performance+T-Shirt&amount=30.00&currency_code=CAD",
+    checkoutUrl: "https://buy.stripe.com/aFaaEQaQ87rEfi58Rkdwc0l",
   },
 ];
