@@ -5,8 +5,9 @@ export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ id: p.id }));
 }
 
-export default function ProductPage({ params }: { params: { id: string } }) {
-  const product = PRODUCTS.find((p) => p.id === params.id);
+export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const product = PRODUCTS.find((p) => p.id === id);
   if (!product) notFound();
 
   const buyHref = product.checkoutUrl ? product.checkoutUrl : orderLink(product.name);
