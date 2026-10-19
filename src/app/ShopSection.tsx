@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
-import { PRODUCTS, CATEGORIES, orderLink, type Category } from "./data/products";
+import { PRODUCTS, CATEGORIES, type Category } from "./data/products";
+import ProductCard from "./ProductCard";
+import manifest from "../../public/variants/manifest.json";
 
 export default function ShopSection() {
   const [active, setActive] = useState<Category | "All">("All");
@@ -43,41 +44,25 @@ export default function ShopSection() {
 
       <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {shown.map((p) => {
-          const buyHref = `/products/${p.id}`;
+          // Get color images from manifest
+          const productManifest = (manifest as Record<string, { colors: Record<string, string | null> }>)[p.id];
+          const colorImages: string[] = [];
+          if (productManifest?.colors) {
+            for (const path of Object.values(productManifest.colors)) {
+              if (path) colorImages.push(path);
+            }
+          }
           return (
-            <article
+            <ProductCard
               key={p.id}
-              className="product-card overflow-hidden rounded-2xl border border-white/10 bg-zinc-950/80"
-            >
-              <div className="relative aspect-square w-full overflow-hidden bg-zinc-900">
-                <Image
-                  src={p.image}
-                  alt={p.name}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
-              <div className="p-5">
-                <p className="text-[11px] font-bold tracking-[0.25em] text-[#22ff88]">
-                  {p.category.toUpperCase()}
-                </p>
-                <h3 className="mt-1 text-base font-bold text-white">{p.name}</h3>
-                <p className="mt-1 text-sm text-zinc-500">{p.tagline}</p>
-                <div className="mt-4 flex items-center justify-between">
-                  <span className="text-xl font-black text-[#22ff88]">
-                    ${p.price}
-                    <span className="ml-1 text-xs font-semibold text-zinc-500">CAD</span>
-                  </span>
-                  <a
-                    href={buyHref}
-                    className="rounded-full border border-[#7c3aed] px-6 py-2 text-sm font-bold text-white transition hover:bg-[#7c3aed]"
-                  >
-                    Buy
-                  </a>
-                </div>
-              </div>
-            </article>
+              id={p.id}
+              name={p.name}
+              price={p.price}
+              image={p.image}
+              tagline={p.tagline}
+              category={p.category}
+              colorImages={colorImages}
+            />
           );
         })}
       </div>
