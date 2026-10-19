@@ -9,6 +9,8 @@ export interface Product {
   image: string;
   tagline: string;
   category: Category;
+  colors?: string[];
+  sizes?: string[];
   // ─────────────────────────────────────────────────────────
   // ADDING PRODUCTS (drip-feed friendly)
   // 1. Drop the product image into public/ (e.g. public/new-hoodie.png)
@@ -58,6 +60,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Oversized fit, fleeced inside. Maximum comfort.",
     category: "Hoodies",
     checkoutUrl: "https://buy.stripe.com/4gM5kw7DWbHU6LzaZsdwc01",
+    colors: ["White", "Oat Gray", "Flower Gray", "Gray Apricot", "Dark Purple", "Medium Blue", "Medium Green", "Klein Blue", "Gray Coffee", "Gray", "Brown", "Navy Blue", "Coffee", "Eden Green", "Black"],
+    sizes: ["S", "M", "L", "XL", "2XL"]
   },
   {
     id: "gdwd-hoodie",
@@ -193,6 +197,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Frayed by the void.",
     category: "Hoodies",
     checkoutUrl: "https://buy.stripe.com/aFaaEQ9M4aDQ8THd7Adwc0g",
+    colors: ["Black", "Blue", "Gray"],
+    sizes: ["S", "M", "L", "XL", "2XL"]
   },
   {
     id: "trust-process-wide-leg-shorts",
@@ -220,6 +226,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Ribbed. Essential. Alien-approved.",
     category: "Tees",
     checkoutUrl: "https://buy.stripe.com/3cIcMY0buaDQ3zn4B4dwc0j",
+    colors: ["White"],
+    sizes: ["S", "M", "L", "XL"]
   },
   {
     id: "boxy-net-tee",
@@ -229,6 +237,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Net layer. Transmission visible.",
     category: "Tees",
     checkoutUrl: "https://buy.stripe.com/14A9AMcYgcLY2vj5F8dwc0k",
+    colors: ["Black"],
+    sizes: ["S", "M", "L", "XL"]
   },
   {
     id: "performance-tee",
@@ -238,5 +248,7 @@ export const PRODUCTS: Product[] = [
     tagline: "Built to move.",
     category: "Tees",
     checkoutUrl: "https://buy.stripe.com/aFaaEQaQ87rEfi58Rkdwc0l",
+    colors: ["Black", "Flecking Gray", "White"],
+    sizes: ["S", "M", "L", "XL", "2XL"]
   },
 ];
