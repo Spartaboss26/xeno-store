@@ -51,6 +51,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Heavyweight. Built for the cold unknown.",
     category: "Hoodies",
     checkoutUrl: "https://buy.stripe.com/00w9AM0bubHU9XL2sWdwc00",
+    colors: ["Gray", "White", "Dull Red", "Camel", "Navy Blue", "Water Blue"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"]
   },
   {
     id: "oversize-fleeced-hoodie",
@@ -71,6 +73,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Go hard or go home. Our heaviest hitter.",
     category: "Hoodies",
     checkoutUrl: "https://buy.stripe.com/9B64gs4rK8vIc5T9Vodwc02",
+    colors: ["Gray", "White", "Dull Red", "Camel", "Black", "Navy Blue", "Water Blue"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"]
   },
   {
     id: "never-stop-tee",
@@ -80,6 +84,8 @@ export const PRODUCTS: Product[] = [
     tagline: "The mantra. Never stop.",
     category: "Tees",
     checkoutUrl: "https://buy.stripe.com/cNi8wI2jC5jw6LzffIdwc03",
+    colors: ["Light Brown", "Grass Green", "Khaki Ash", "Apricot", "Black", "Purple Haze", "Orange", "Dark Red", "Blue Jeans", "Water Blue", "Dark Green", "Light Blue", "Red", "Rose Red", "Lake Blue", "Gray Green", "Bean Green", "Royal Blue", "Pirate Gray", "Light Gray", "Light Pink", "Light Purple"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"]
   },
   {
     id: "classic-tee",
@@ -89,6 +95,8 @@ export const PRODUCTS: Product[] = [
     tagline: "The original. Clean and essential.",
     category: "Tees",
     checkoutUrl: "https://buy.stripe.com/5kQ3co6zS7rE5HvebEdwc04",
+    colors: ["Dark Gray", "Black", "Gray Apricot", "Greyish Green", "Colorful Blue", "Paris Purple", "Gray Blue", "Forest Green", "Coffee", "Navy Blue", "Apricot", "Light Gray", "Sky Blue", "Pink", "Light Green"],
+    sizes: ["S", "M", "L", "XL", "XXL"]
   },
   {
     id: "essential-cotton-tee",
@@ -98,6 +106,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Everyday essential, alien standard.",
     category: "Tees",
     checkoutUrl: "https://buy.stripe.com/8x23co6zSfYa5Hv1oSdwc05",
+    colors: ["Light Purple", "Lucent White", "Light Gray", "Milk Apricot", "Cherry Blossom Pink", "Light Blue", "Lemon Yellow"],
+    sizes: ["S", "M", "L", "XL", "2XL"]
   },
   {
     id: "trust-process-tee",
@@ -107,6 +117,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Trust the process. The unknown rewards patience.",
     category: "Tees",
     checkoutUrl: "https://buy.stripe.com/3cI3coe2k8vIee1aZsdwc06",
+    colors: ["Sky Blue", "Wine Red", "Classic Black", "Caramel Macchiato", "Pink", "Khaki", "Grape Purple", "Dark Blue", "Army Green", "Rose Pink", "Navy Blue", "Charcoal Gray"],
+    sizes: ["M", "L", "XL", "2XL", "3XL"]
   },
   {
     id: "essential-heavyweight-vest",
@@ -116,6 +128,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Sleeveless armor for the unknown.",
     category: "Tops",
     checkoutUrl: "https://buy.stripe.com/dRm14ge2keU6fi56Jcdwc07",
+    colors: ["Dark Green", "Mild Apricot", "Khaki", "Black"],
+    sizes: ["XS", "S", "M", "L", "XL", "2XL"]
   },
   {
     id: "snow-washed-raw-hem-tank",
@@ -125,6 +139,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Raw edges. Washed in static.",
     category: "Tops",
     checkoutUrl: "https://buy.stripe.com/28EaEQf6o27k7PD2sWdwc08",
+    colors: ["Black"],
+    sizes: ["S", "M", "L", "XL", "2XL"]
   },
   {
     id: "vintage-wash-denim-jacket",
@@ -134,6 +150,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Denim from another dimension.",
     category: "Tops",
     checkoutUrl: "https://buy.stripe.com/5kQaEQf6o3boc5T5F8dwc09",
+    colors: ["Blue", "Black", "Navy Blue"],
+    sizes: ["S", "M", "L", "XL", "2XL"]
   },
   {
     id: "sun-fade-boxy-fur-hoodie",
@@ -143,6 +161,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Fur-trimmed. Signal-proof.",
     category: "Hoodies",
     checkoutUrl: "https://buy.stripe.com/3cIcMY0buh2eb1PebEdwc0a",
+    colors: ["Black"],
+    sizes: ["S", "M", "L", "XL", "2XL"]
   },
   {
     id: "xeno-kingdom-crew",
@@ -152,6 +172,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Rep the kingdom.",
     category: "Hoodies",
     checkoutUrl: "https://buy.stripe.com/8x228kaQ8eU60nb7Ngdwc0b",
+    colors: ["Red", "Brown", "Blackish Green", "Pink", "White", "Yellow", "Flower Gray", "Navy Blue", "Cream Apricot"],
+    sizes: ["S", "M", "L"]
   },
   {
     id: "never-stop-sun-dress",
@@ -161,6 +183,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Never stop, even in sunlight.",
     category: "Women",
     checkoutUrl: "https://buy.stripe.com/8x29AM1fyaDQb1P6Jcdwc0c",
+    colors: ["White", "Black", "Colorful Blue"],
+    sizes: ["XS", "S", "M", "L"]
   },
   {
     id: "define-your-own-hoodie",
@@ -170,6 +194,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Define your own. Heavyweight.",
     category: "Hoodies",
     checkoutUrl: "https://buy.stripe.com/9B6dR2bUccLY4Drc3wdwc0d",
+    colors: ["Gray", "White", "Camel", "Water Blue"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"]
   },
   {
     id: "womens-cropped-sports-bra",
@@ -179,6 +205,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Train like they're watching.",
     category: "Women",
     checkoutUrl: "https://buy.stripe.com/00w9AM8I0fYa2vjffIdwc0e",
+    colors: ["Black"],
+    sizes: ["S", "M", "L", "XL"]
   },
   {
     id: "snow-washed-loose-hoodie",
@@ -188,6 +216,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Loose fit, heavy signal.",
     category: "Hoodies",
     checkoutUrl: "https://buy.stripe.com/5kQdR20bu4fs0nbc3wdwc0f",
+    colors: ["Black Beauty"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"]
   },
   {
     id: "vintage-washed-frayed-hoodie",
@@ -208,6 +238,8 @@ export const PRODUCTS: Product[] = [
     tagline: "Trust the process, legs out.",
     category: "Pants",
     checkoutUrl: "https://buy.stripe.com/cNi3co1fyaDQ0nb1oSdwc0h",
+    colors: ["Jeans Blue", "Black"],
+    sizes: ["S", "M", "L", "XL", "2XL"]
   },
   {
     id: "staple-cotton-pullover",
@@ -217,6 +249,8 @@ export const PRODUCTS: Product[] = [
     tagline: "The staple. 100% cotton.",
     category: "Tops",
     checkoutUrl: "https://buy.stripe.com/28EdR20bu9zM7PDffIdwc0i",
+    colors: ["Lucent White", "Ice Water"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"]
   },
   {
     id: "essential-ribbed-tee",
