@@ -1,6 +1,6 @@
-export type Category = "Hoodies" | "Tees" | "Tops" | "More";
+export type Category = "Hoodies" | "Tees" | "Tops" | "Pants" | "Women";
 
-export const CATEGORIES: Category[] = ["Hoodies", "Tees", "Tops", "More"];
+export const CATEGORIES: Category[] = ["Hoodies", "Tees", "Tops", "Pants", "Women"];
 
 export interface Product {
   id: string;
@@ -128,7 +128,7 @@ export const PRODUCTS: Product[] = [
     price: 94,
     image: "/vintage-wash-denim-jacket.png",
     tagline: "Denim from another dimension.",
-    category: "More",
+    category: "Tops",
     checkoutUrl: "https://buy.stripe.com/5kQaEQf6o3boc5T5F8dwc09",
   },
   {
@@ -146,7 +146,7 @@ export const PRODUCTS: Product[] = [
     price: 52,
     image: "/xeno-kingdom-crew.png",
     tagline: "Rep the kingdom.",
-    category: "More",
+    category: "Hoodies",
     checkoutUrl: "https://buy.stripe.com/8x228kaQ8eU60nb7Ngdwc0b",
   },
   {
@@ -155,7 +155,7 @@ export const PRODUCTS: Product[] = [
     price: 30,
     image: "/never-stop-sun-dress.png",
     tagline: "Never stop, even in sunlight.",
-    category: "More",
+    category: "Women",
     checkoutUrl: "https://buy.stripe.com/8x29AM1fyaDQb1P6Jcdwc0c",
   },
   {
@@ -173,7 +173,7 @@ export const PRODUCTS: Product[] = [
     price: 61,
     image: "/womens-cropped-sports-bra.png",
     tagline: "Train like they're watching.",
-    category: "Tops",
+    category: "Women",
     checkoutUrl: "https://buy.stripe.com/00w9AM8I0fYa2vjffIdwc0e",
   },
   {
@@ -200,7 +200,7 @@ export const PRODUCTS: Product[] = [
     price: 77,
     image: "/trust-process-wide-leg-shorts.png",
     tagline: "Trust the process, legs out.",
-    category: "More",
+    category: "Pants",
     checkoutUrl: "https://buy.stripe.com/cNi3co1fyaDQ0nb1oSdwc0h",
   },
   {
