@@ -3,198 +3,198 @@
     "tapstitch_name": "XENO GDWD Heavyweight Hoodie",
     "tapstitch_store": "xenostreetware",
     "colors": {
-      "Gray": "/variants/gdwd-hoodie/gray.png",
-      "White": "/variants/gdwd-hoodie/white.png",
-      "Dull Red": "/variants/gdwd-hoodie/dull-red.png",
-      "Camel": "/variants/gdwd-hoodie/camel.png",
-      "Black": "/variants/gdwd-hoodie/black.png",
-      "Navy Blue": "/variants/gdwd-hoodie/navy-blue.png",
-      "Water Blue": "/variants/gdwd-hoodie/water-blue.png"
+      "Gray": "/variants/gdwd-hoodie/gray.jpg",
+      "White": "/variants/gdwd-hoodie/white.jpg",
+      "Dull Red": "/variants/gdwd-hoodie/dull-red.jpg",
+      "Camel": "/variants/gdwd-hoodie/camel.jpg",
+      "Black": "/variants/gdwd-hoodie/black.jpg",
+      "Navy Blue": "/variants/gdwd-hoodie/navy-blue.jpg",
+      "Water Blue": "/variants/gdwd-hoodie/water-blue.jpg"
     }
   },
   "streetwear-hoodie": {
     "tapstitch_name": "XENO STREETWEAR Heavyweight Hoodie",
     "tapstitch_store": "xenostreetware",
     "colors": {
-      "Gray": "/variants/streetwear-hoodie/gray.png",
-      "White": "/variants/streetwear-hoodie/white.png",
-      "Dull Red": "/variants/streetwear-hoodie/dull-red.png",
-      "Camel": "/variants/streetwear-hoodie/camel.png",
-      "Navy Blue": "/variants/streetwear-hoodie/navy-blue.png",
-      "Water Blue": "/variants/streetwear-hoodie/water-blue.png"
+      "Gray": "/variants/streetwear-hoodie/gray.jpg",
+      "White": "/variants/streetwear-hoodie/white.jpg",
+      "Dull Red": "/variants/streetwear-hoodie/dull-red.jpg",
+      "Camel": "/variants/streetwear-hoodie/camel.jpg",
+      "Navy Blue": "/variants/streetwear-hoodie/navy-blue.jpg",
+      "Water Blue": "/variants/streetwear-hoodie/water-blue.jpg"
     }
   },
   "sun-fade-boxy-fur-hoodie": {
     "tapstitch_name": "Sun Fade Boxy Detachable Fur Hoodie",
     "tapstitch_store": "Xeno streetwear",
     "colors": {
-      "Black": "/variants/sun-fade-boxy-fur-hoodie/black.png"
+      "Black": "/variants/sun-fade-boxy-fur-hoodie/black.jpg"
     }
   },
   "xeno-kingdom-crew": {
     "tapstitch_name": "XENO KINGDOM Crew Sweatshirt",
     "tapstitch_store": "Xeno streetwear",
     "colors": {
-      "Red": "/variants/xeno-kingdom-crew/red.png",
-      "Brown": "/variants/xeno-kingdom-crew/brown.png",
-      "Blackish Green": "/variants/xeno-kingdom-crew/blackish-green.png",
-      "Pink": "/variants/xeno-kingdom-crew/pink.png",
-      "White": "/variants/xeno-kingdom-crew/white.png",
-      "Yellow": "/variants/xeno-kingdom-crew/yellow.png",
-      "Flower Gray": "/variants/xeno-kingdom-crew/flower-gray.png",
-      "Navy Blue": "/variants/xeno-kingdom-crew/navy-blue.png",
-      "Cream Apricot": "/variants/xeno-kingdom-crew/cream-apricot.png"
+      "Red": "/variants/xeno-kingdom-crew/red.jpg",
+      "Brown": "/variants/xeno-kingdom-crew/brown.jpg",
+      "Blackish Green": "/variants/xeno-kingdom-crew/blackish-green.jpg",
+      "Pink": "/variants/xeno-kingdom-crew/pink.jpg",
+      "White": "/variants/xeno-kingdom-crew/white.jpg",
+      "Yellow": "/variants/xeno-kingdom-crew/yellow.jpg",
+      "Flower Gray": "/variants/xeno-kingdom-crew/flower-gray.jpg",
+      "Navy Blue": "/variants/xeno-kingdom-crew/navy-blue.jpg",
+      "Cream Apricot": "/variants/xeno-kingdom-crew/cream-apricot.jpg"
     }
   },
   "never-stop-tee": {
     "tapstitch_name": "Xeno Never Stop Oversized T-Shirt",
     "tapstitch_store": "xenostreetware",
     "colors": {
-      "Light Brown": "/variants/never-stop-tee/light-brown.png",
-      "Grass Green": "/variants/never-stop-tee/grass-green.png",
-      "Khaki Ash": "/variants/never-stop-tee/khaki-ash.png",
-      "Apricot": "/variants/never-stop-tee/apricot.png",
-      "Black": "/variants/never-stop-tee/black.png",
-      "Purple Haze": "/variants/never-stop-tee/purple-haze.png",
-      "Orange": "/variants/never-stop-tee/orange.png",
-      "Dark Red": "/variants/never-stop-tee/dark-red.png",
-      "Blue Jeans": "/variants/never-stop-tee/blue-jeans.png",
-      "Water Blue": "/variants/never-stop-tee/water-blue.png",
-      "Dark Green": "/variants/never-stop-tee/dark-green.png",
-      "Light Blue": "/variants/never-stop-tee/light-blue.png",
-      "Red": "/variants/never-stop-tee/red.png",
-      "Rose Red": "/variants/never-stop-tee/rose-red.png",
-      "Lake Blue": "/variants/never-stop-tee/lake-blue.png",
-      "Gray Green": "/variants/never-stop-tee/gray-green.png",
-      "Bean Green": "/variants/never-stop-tee/bean-green.png",
-      "Royal Blue": "/variants/never-stop-tee/royal-blue.png",
-      "Pirate Gray": "/variants/never-stop-tee/pirate-gray.png",
-      "Light Gray": "/variants/never-stop-tee/light-gray.png",
-      "Light Pink": "/variants/never-stop-tee/light-pink.png",
-      "Light Purple": "/variants/never-stop-tee/light-purple.png"
+      "Light Brown": "/variants/never-stop-tee/light-brown.jpg",
+      "Grass Green": "/variants/never-stop-tee/grass-green.jpg",
+      "Khaki Ash": "/variants/never-stop-tee/khaki-ash.jpg",
+      "Apricot": "/variants/never-stop-tee/apricot.jpg",
+      "Black": "/variants/never-stop-tee/black.jpg",
+      "Purple Haze": "/variants/never-stop-tee/purple-haze.jpg",
+      "Orange": "/variants/never-stop-tee/orange.jpg",
+      "Dark Red": "/variants/never-stop-tee/dark-red.jpg",
+      "Blue Jeans": "/variants/never-stop-tee/blue-jeans.jpg",
+      "Water Blue": "/variants/never-stop-tee/water-blue.jpg",
+      "Dark Green": "/variants/never-stop-tee/dark-green.jpg",
+      "Light Blue": "/variants/never-stop-tee/light-blue.jpg",
+      "Red": "/variants/never-stop-tee/red.jpg",
+      "Rose Red": "/variants/never-stop-tee/rose-red.jpg",
+      "Lake Blue": "/variants/never-stop-tee/lake-blue.jpg",
+      "Gray Green": "/variants/never-stop-tee/gray-green.jpg",
+      "Bean Green": "/variants/never-stop-tee/bean-green.jpg",
+      "Royal Blue": "/variants/never-stop-tee/royal-blue.jpg",
+      "Pirate Gray": "/variants/never-stop-tee/pirate-gray.jpg",
+      "Light Gray": "/variants/never-stop-tee/light-gray.jpg",
+      "Light Pink": "/variants/never-stop-tee/light-pink.jpg",
+      "Light Purple": "/variants/never-stop-tee/light-purple.jpg"
     }
   },
   "define-your-own-hoodie": {
     "tapstitch_name": "XENO DEFINE YOUR OWN Heavyweight Hoodie #FJpf",
     "tapstitch_store": "xenostreetware",
     "colors": {
-      "Gray": "/variants/define-your-own-hoodie/gray.png",
-      "White": "/variants/define-your-own-hoodie/white.png",
-      "Camel": "/variants/define-your-own-hoodie/camel.png",
-      "Water Blue": "/variants/define-your-own-hoodie/water-blue.png"
+      "Gray": "/variants/define-your-own-hoodie/gray.jpg",
+      "White": "/variants/define-your-own-hoodie/white.jpg",
+      "Camel": "/variants/define-your-own-hoodie/camel.jpg",
+      "Water Blue": "/variants/define-your-own-hoodie/water-blue.jpg"
     }
   },
   "trust-process-tee": {
     "tapstitch_name": "Trust The Process T-Shirt",
     "tapstitch_store": "xenostreetware",
     "colors": {
-      "Sky Blue": "/variants/trust-process-tee/sky-blue.png",
-      "Wine Red": "/variants/trust-process-tee/wine-red.png",
-      "Classic Black": "/variants/trust-process-tee/classic-black.png",
-      "Caramel Macchiato": "/variants/trust-process-tee/caramel-macchiato.png",
-      "Pink": "/variants/trust-process-tee/pink.png",
-      "Khaki": "/variants/trust-process-tee/khaki.png",
-      "Grape Purple": "/variants/trust-process-tee/grape-purple.png",
-      "Dark Blue": "/variants/trust-process-tee/dark-blue.png",
-      "Army Green": "/variants/trust-process-tee/army-green.png",
-      "Rose Pink": "/variants/trust-process-tee/rose-pink.png",
-      "Navy Blue": "/variants/trust-process-tee/navy-blue.png",
-      "Charcoal Gray": "/variants/trust-process-tee/charcoal-gray.png"
+      "Sky Blue": "/variants/trust-process-tee/sky-blue.jpg",
+      "Wine Red": "/variants/trust-process-tee/wine-red.jpg",
+      "Classic Black": "/variants/trust-process-tee/classic-black.jpg",
+      "Caramel Macchiato": "/variants/trust-process-tee/caramel-macchiato.jpg",
+      "Pink": "/variants/trust-process-tee/pink.jpg",
+      "Khaki": "/variants/trust-process-tee/khaki.jpg",
+      "Grape Purple": "/variants/trust-process-tee/grape-purple.jpg",
+      "Dark Blue": "/variants/trust-process-tee/dark-blue.jpg",
+      "Army Green": "/variants/trust-process-tee/army-green.jpg",
+      "Rose Pink": "/variants/trust-process-tee/rose-pink.jpg",
+      "Navy Blue": "/variants/trust-process-tee/navy-blue.jpg",
+      "Charcoal Gray": "/variants/trust-process-tee/charcoal-gray.jpg"
     }
   },
   "essential-heavyweight-vest": {
     "tapstitch_name": "Essential Heavyweight Vest",
     "tapstitch_store": "Xeno streetwear",
     "colors": {
-      "Dark Green": "/variants/essential-heavyweight-vest/dark-green.png",
-      "Mild Apricot": "/variants/essential-heavyweight-vest/mild-apricot.png",
-      "Khaki": "/variants/essential-heavyweight-vest/khaki.png",
-      "Black": "/variants/essential-heavyweight-vest/black.png"
+      "Dark Green": "/variants/essential-heavyweight-vest/dark-green.jpg",
+      "Mild Apricot": "/variants/essential-heavyweight-vest/mild-apricot.jpg",
+      "Khaki": "/variants/essential-heavyweight-vest/khaki.jpg",
+      "Black": "/variants/essential-heavyweight-vest/black.jpg"
     }
   },
   "snow-washed-raw-hem-tank": {
     "tapstitch_name": "Snow Washed Raw-Hem Tank Top",
     "tapstitch_store": "Xeno streetwear",
     "colors": {
-      "Black": "/variants/snow-washed-raw-hem-tank/black.png"
+      "Black": "/variants/snow-washed-raw-hem-tank/black.jpg"
     }
   },
   "vintage-wash-denim-jacket": {
     "tapstitch_name": "Unisex Vintage Wash Denim Jacket",
     "tapstitch_store": "Xeno streetwear",
     "colors": {
-      "Blue": "/variants/vintage-wash-denim-jacket/blue.png",
-      "Black": "/variants/vintage-wash-denim-jacket/black.png",
-      "Navy Blue": "/variants/vintage-wash-denim-jacket/navy-blue.png"
+      "Blue": "/variants/vintage-wash-denim-jacket/blue.jpg",
+      "Black": "/variants/vintage-wash-denim-jacket/black.jpg",
+      "Navy Blue": "/variants/vintage-wash-denim-jacket/navy-blue.jpg"
     }
   },
   "never-stop-sun-dress": {
     "tapstitch_name": "XENO NEVER STOP Women's sun Dress #GqgF",
     "tapstitch_store": "xenostreetware",
     "colors": {
-      "White": "/variants/never-stop-sun-dress/white.png",
-      "Black": "/variants/never-stop-sun-dress/black.png",
-      "Colorful Blue": "/variants/never-stop-sun-dress/colorful-blue.png"
+      "White": "/variants/never-stop-sun-dress/white.jpg",
+      "Black": "/variants/never-stop-sun-dress/black.jpg",
+      "Colorful Blue": "/variants/never-stop-sun-dress/colorful-blue.jpg"
     }
   },
   "womens-cropped-sports-bra": {
     "tapstitch_name": "XENO Women's Cropped Sports Bra #aJiC",
     "tapstitch_store": "xenostreetware",
     "colors": {
-      "Black": "/variants/womens-cropped-sports-bra/black.png"
+      "Black": "/variants/womens-cropped-sports-bra/black.jpg"
     }
   },
   "snow-washed-loose-hoodie": {
     "tapstitch_name": "Snow Washed Loose Cotton Hoodie #bGWU",
     "tapstitch_store": "xenostreetware",
     "colors": {
-      "Black Beauty": "/variants/snow-washed-loose-hoodie/black-beauty.png"
+      "Black Beauty": "/variants/snow-washed-loose-hoodie/black-beauty.jpg"
     }
   },
   "trust-process-wide-leg-shorts": {
     "tapstitch_name": "Xeno Trust The Process Men's Vintage Wide Leg Shorts #GbaP",
     "tapstitch_store": "xenostreetware",
     "colors": {
-      "Jeans Blue": "/variants/trust-process-wide-leg-shorts/jeans-blue.png",
-      "Black": "/variants/trust-process-wide-leg-shorts/black.png"
+      "Jeans Blue": "/variants/trust-process-wide-leg-shorts/jeans-blue.jpg",
+      "Black": "/variants/trust-process-wide-leg-shorts/black.jpg"
     }
   },
   "oversize-fleeced-hoodie": {
     "tapstitch_name": "XENO Oversize Fleeced Hoodie",
     "tapstitch_store": "1dtjes-zr",
     "colors": {
-      "White": "/variants/oversize-fleeced-hoodie/white.png",
-      "Oat Gray": "/variants/oversize-fleeced-hoodie/oat-gray.png",
-      "Flower Gray": "/variants/oversize-fleeced-hoodie/flower-gray.png",
-      "Gray Apricot": "/variants/oversize-fleeced-hoodie/gray-apricot.png",
-      "Dark Purple": "/variants/oversize-fleeced-hoodie/dark-purple.png",
-      "Medium Blue": "/variants/oversize-fleeced-hoodie/medium-blue.png",
-      "Medium Green": "/variants/oversize-fleeced-hoodie/medium-green.png",
-      "Klein Blue": "/variants/oversize-fleeced-hoodie/klein-blue.png",
-      "Gray Coffee": "/variants/oversize-fleeced-hoodie/gray-coffee.png",
-      "Gray": "/variants/oversize-fleeced-hoodie/gray.png",
-      "Brown": "/variants/oversize-fleeced-hoodie/brown.png",
-      "Navy Blue": "/variants/oversize-fleeced-hoodie/navy-blue.png",
-      "Coffee": "/variants/oversize-fleeced-hoodie/coffee.png",
-      "Eden Green": "/variants/oversize-fleeced-hoodie/eden-green.png",
-      "Black": "/variants/oversize-fleeced-hoodie/black.png"
+      "White": "/variants/oversize-fleeced-hoodie/white.jpg",
+      "Oat Gray": "/variants/oversize-fleeced-hoodie/oat-gray.jpg",
+      "Flower Gray": "/variants/oversize-fleeced-hoodie/flower-gray.jpg",
+      "Gray Apricot": "/variants/oversize-fleeced-hoodie/gray-apricot.jpg",
+      "Dark Purple": "/variants/oversize-fleeced-hoodie/dark-purple.jpg",
+      "Medium Blue": "/variants/oversize-fleeced-hoodie/medium-blue.jpg",
+      "Medium Green": "/variants/oversize-fleeced-hoodie/medium-green.jpg",
+      "Klein Blue": "/variants/oversize-fleeced-hoodie/klein-blue.jpg",
+      "Gray Coffee": "/variants/oversize-fleeced-hoodie/gray-coffee.jpg",
+      "Gray": "/variants/oversize-fleeced-hoodie/gray.jpg",
+      "Brown": "/variants/oversize-fleeced-hoodie/brown.jpg",
+      "Navy Blue": "/variants/oversize-fleeced-hoodie/navy-blue.jpg",
+      "Coffee": "/variants/oversize-fleeced-hoodie/coffee.jpg",
+      "Eden Green": "/variants/oversize-fleeced-hoodie/eden-green.jpg",
+      "Black": "/variants/oversize-fleeced-hoodie/black.jpg"
     }
   },
   "vintage-washed-frayed-hoodie": {
     "tapstitch_name": "XENO Vintage Washed Frayed-Hem Hoodie",
     "tapstitch_store": "1dtjes-zr",
     "colors": {
-      "Black": "/variants/vintage-washed-frayed-hoodie/black.png",
-      "Blue": "/variants/vintage-washed-frayed-hoodie/blue.png",
-      "Gray": "/variants/vintage-washed-frayed-hoodie/gray.png"
+      "Black": "/variants/vintage-washed-frayed-hoodie/black.jpg",
+      "Blue": "/variants/vintage-washed-frayed-hoodie/blue.jpg",
+      "Gray": "/variants/vintage-washed-frayed-hoodie/gray.jpg"
     }
   },
   "performance-tee": {
     "tapstitch_name": "XENO Performance Short Sleeve T-Shirt",
     "tapstitch_store": "1dtjes-zr",
     "colors": {
-      "Black": "/variants/performance-tee/black.png",
-      "Flecking Gray": "/variants/performance-tee/flecking-gray.png",
+      "Black": "/variants/performance-tee/black.jpg",
+      "Flecking Gray": "/variants/performance-tee/flecking-gray.jpg",
       "White": null
     }
   },
@@ -202,56 +202,56 @@
     "tapstitch_name": "XENO See-through Boxy Net T-shirt",
     "tapstitch_store": "1dtjes-zr",
     "colors": {
-      "Black": "/variants/boxy-net-tee/black.png"
+      "Black": "/variants/boxy-net-tee/black.jpg"
     }
   },
   "essential-ribbed-tee": {
     "tapstitch_name": "XENO Half Sleeve Ribbed T-Shirt",
     "tapstitch_store": "1dtjes-zr",
     "colors": {
-      "White": "/variants/essential-ribbed-tee/white.png"
+      "White": "/variants/essential-ribbed-tee/white.jpg"
     }
   },
   "classic-tee": {
     "tapstitch_name": "XENO WORLD T-Shirt (best match)",
     "tapstitch_store": "1dtjes-zr",
     "colors": {
-      "Dark Gray": "/variants/classic-tee/dark-gray.png",
-      "Black": "/variants/classic-tee/black.png",
-      "Gray Apricot": "/variants/classic-tee/gray-apricot.png",
-      "Greyish Green": "/variants/classic-tee/greyish-green.png",
-      "Colorful Blue": "/variants/classic-tee/colorful-blue.png",
-      "Paris Purple": "/variants/classic-tee/paris-purple.png",
-      "Gray Blue": "/variants/classic-tee/gray-blue.png",
-      "Forest Green": "/variants/classic-tee/forest-green.png",
-      "Coffee": "/variants/classic-tee/coffee.png",
-      "Navy Blue": "/variants/classic-tee/navy-blue.png",
-      "Apricot": "/variants/classic-tee/apricot.png",
-      "Light Gray": "/variants/classic-tee/light-gray.png",
-      "Sky Blue": "/variants/classic-tee/sky-blue.png",
-      "Pink": "/variants/classic-tee/pink.png",
-      "Light Green": "/variants/classic-tee/light-green.png"
+      "Dark Gray": "/variants/classic-tee/dark-gray.jpg",
+      "Black": "/variants/classic-tee/black.jpg",
+      "Gray Apricot": "/variants/classic-tee/gray-apricot.jpg",
+      "Greyish Green": "/variants/classic-tee/greyish-green.jpg",
+      "Colorful Blue": "/variants/classic-tee/colorful-blue.jpg",
+      "Paris Purple": "/variants/classic-tee/paris-purple.jpg",
+      "Gray Blue": "/variants/classic-tee/gray-blue.jpg",
+      "Forest Green": "/variants/classic-tee/forest-green.jpg",
+      "Coffee": "/variants/classic-tee/coffee.jpg",
+      "Navy Blue": "/variants/classic-tee/navy-blue.jpg",
+      "Apricot": "/variants/classic-tee/apricot.jpg",
+      "Light Gray": "/variants/classic-tee/light-gray.jpg",
+      "Sky Blue": "/variants/classic-tee/sky-blue.jpg",
+      "Pink": "/variants/classic-tee/pink.jpg",
+      "Light Green": "/variants/classic-tee/light-green.jpg"
     }
   },
   "essential-cotton-tee": {
     "tapstitch_name": "XENO BEYOND THE UNKNOWN Cotton T-Shirt (best match)",
     "tapstitch_store": "1dtjes-zr",
     "colors": {
-      "Light Purple": "/variants/essential-cotton-tee/light-purple.png",
-      "Lucent White": "/variants/essential-cotton-tee/lucent-white.png",
-      "Light Gray": "/variants/essential-cotton-tee/light-gray.png",
-      "Milk Apricot": "/variants/essential-cotton-tee/milk-apricot.png",
-      "Cherry Blossom Pink": "/variants/essential-cotton-tee/cherry-blossom-pink.png",
-      "Light Blue": "/variants/essential-cotton-tee/light-blue.png",
-      "Lemon Yellow": "/variants/essential-cotton-tee/lemon-yellow.png"
+      "Light Purple": "/variants/essential-cotton-tee/light-purple.jpg",
+      "Lucent White": "/variants/essential-cotton-tee/lucent-white.jpg",
+      "Light Gray": "/variants/essential-cotton-tee/light-gray.jpg",
+      "Milk Apricot": "/variants/essential-cotton-tee/milk-apricot.jpg",
+      "Cherry Blossom Pink": "/variants/essential-cotton-tee/cherry-blossom-pink.jpg",
+      "Light Blue": "/variants/essential-cotton-tee/light-blue.jpg",
+      "Lemon Yellow": "/variants/essential-cotton-tee/lemon-yellow.jpg"
     }
   },
   "staple-cotton-pullover": {
     "tapstitch_name": "XENO Streetwear Staple Pullover (best match)",
     "tapstitch_store": "1dtjes-zr",
     "colors": {
-      "Lucent White": "/variants/staple-cotton-pullover/lucent-white.png",
-      "Ice Water": "/variants/staple-cotton-pullover/ice-water.png"
+      "Lucent White": "/variants/staple-cotton-pullover/lucent-white.jpg",
+      "Ice Water": "/variants/staple-cotton-pullover/ice-water.jpg"
     }
   }
 }
