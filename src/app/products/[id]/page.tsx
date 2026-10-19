@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { PRODUCTS, orderLink } from "../../data/products";
 import VariantPicker from "./VariantPicker";
+import manifest from "../../../../public/variants/manifest.json";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ id: p.id }));
@@ -12,6 +13,15 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
   if (!product) notFound();
 
   const buyHref = product.checkoutUrl ? product.checkoutUrl : orderLink(product.name);
+
+  // Get color images from manifest
+  const productManifest = (manifest as Record<string, { colors: Record<string, string | null> }>)[id];
+  const colorImages: Record<string, string> = {};
+  if (productManifest?.colors) {
+    for (const [color, path] of Object.entries(productManifest.colors)) {
+      if (path) colorImages[color] = path;
+    }
+  }
 
   return (
     <main
@@ -46,6 +56,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             sizes={product.sizes}
             checkoutUrl={buyHref}
             productName={product.name}
+            colorImages={colorImages}
           />
           <p style={{ marginTop: "2rem" }}>
             <a href="/" style={{ color: "#a78bfa" }}>← Back to the store</a>
