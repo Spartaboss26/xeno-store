@@ -11,6 +11,7 @@ interface VariantPickerProps {
 export default function VariantPicker({ colors, sizes, checkoutUrl, productName }: VariantPickerProps) {
   const [selectedColor, setSelectedColor] = useState(colors?.[0] || "");
   const [selectedSize, setSelectedSize] = useState(sizes?.[0] || "");
+  const [quantity, setQuantity] = useState(1);
 
   const hasVariants = (colors && colors.length > 0) || (sizes && sizes.length > 0);
 
@@ -89,6 +90,46 @@ export default function VariantPicker({ colors, sizes, checkoutUrl, productName 
           </div>
         </div>
       )}
+      <div style={{ marginBottom: "1.5rem" }}>
+        <label style={{ display: "block", color: "#b8b8c8", fontSize: "0.9rem", marginBottom: "0.5rem" }}>
+          Quantity
+        </label>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+          <button
+            onClick={() => setQuantity(Math.max(1, quantity - 1))}
+            style={{
+              width: "2.5rem",
+              height: "2.5rem",
+              borderRadius: 8,
+              border: "1px solid #3a3a45",
+              background: "transparent",
+              color: "#e8e8ee",
+              cursor: "pointer",
+              fontSize: "1.2rem",
+            }}
+          >
+            −
+          </button>
+          <span style={{ color: "#e8e8ee", fontSize: "1.1rem", fontWeight: 600, minWidth: "2rem", textAlign: "center" }}>
+            {quantity}
+          </span>
+          <button
+            onClick={() => setQuantity(Math.min(99, quantity + 1))}
+            style={{
+              width: "2.5rem",
+              height: "2.5rem",
+              borderRadius: 8,
+              border: "1px solid #3a3a45",
+              background: "transparent",
+              color: "#e8e8ee",
+              cursor: "pointer",
+              fontSize: "1.2rem",
+            }}
+          >
+            +
+          </button>
+        </div>
+      </div>
       <a
         href={checkoutUrl}
         style={{
@@ -102,11 +143,13 @@ export default function VariantPicker({ colors, sizes, checkoutUrl, productName 
           fontSize: "1.1rem",
         }}
       >
-        Buy{selectedColor || selectedSize ? ` — ${[selectedColor, selectedSize].filter(Boolean).join(" / ")}` : ""}
+        Buy{selectedColor || selectedSize ? ` — ${[selectedColor, selectedSize].filter(Boolean).join(" / ")}` : ""}{quantity > 1 ? ` × ${quantity}` : ""}
       </a>
-      {(selectedColor || selectedSize) && (
+      {(selectedColor || selectedSize || quantity > 1) && (
         <p style={{ color: "#888", fontSize: "0.8rem", marginTop: "0.75rem" }}>
-          Your { [selectedColor && "color", selectedSize && "size"].filter(Boolean).join(" and ") } will be confirmed at checkout.
+          {quantity > 1
+            ? `You'll set the quantity to ${quantity} on the Stripe checkout page.`
+            : `Your ${[selectedColor && "color", selectedSize && "size"].filter(Boolean).join(" and ")} will be confirmed at checkout.`}
         </p>
       )}
     </div>
