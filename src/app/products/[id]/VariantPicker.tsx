@@ -6,9 +6,10 @@ interface VariantPickerProps {
   sizes?: string[];
   checkoutUrl: string;
   productName: string;
+  colorImages?: Record<string, string>;
 }
 
-export default function VariantPicker({ colors, sizes, checkoutUrl, productName }: VariantPickerProps) {
+export default function VariantPicker({ colors, sizes, checkoutUrl, productName, colorImages }: VariantPickerProps) {
   const [selectedColor, setSelectedColor] = useState(colors?.[0] || "");
   const [selectedSize, setSelectedSize] = useState(sizes?.[0] || "");
   const [quantity, setQuantity] = useState(1);
@@ -43,23 +44,51 @@ export default function VariantPicker({ colors, sizes, checkoutUrl, productName 
             Color: <span style={{ color: "#e8e8ee", fontWeight: 600 }}>{selectedColor}</span>
           </label>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
-            {colors.map((color) => (
-              <button
-                key={color}
-                onClick={() => setSelectedColor(color)}
-                style={{
-                  padding: "0.5rem 1rem",
-                  borderRadius: 999,
-                  border: selectedColor === color ? "2px solid #a78bfa" : "1px solid #3a3a45",
-                  background: selectedColor === color ? "#a78bfa22" : "transparent",
-                  color: "#e8e8ee",
-                  cursor: "pointer",
-                  fontSize: "0.9rem",
-                }}
-              >
-                {color}
-              </button>
-            ))}
+            {colors.map((color) => {
+              const imgSrc = colorImages?.[color];
+              if (imgSrc) {
+                return (
+                  <button
+                    key={color}
+                    onClick={() => setSelectedColor(color)}
+                    title={color}
+                    style={{
+                      width: "4rem",
+                      height: "4rem",
+                      borderRadius: 8,
+                      border: selectedColor === color ? "2px solid #a78bfa" : "1px solid #3a3a45",
+                      background: "#1a1a20",
+                      cursor: "pointer",
+                      overflow: "hidden",
+                      padding: 0,
+                    }}
+                  >
+                    <img
+                      src={imgSrc}
+                      alt={color}
+                      style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                  </button>
+                );
+              }
+              return (
+                <button
+                  key={color}
+                  onClick={() => setSelectedColor(color)}
+                  style={{
+                    padding: "0.5rem 1rem",
+                    borderRadius: 999,
+                    border: selectedColor === color ? "2px solid #a78bfa" : "1px solid #3a3a45",
+                    background: selectedColor === color ? "#a78bfa22" : "transparent",
+                    color: "#e8e8ee",
+                    cursor: "pointer",
+                    fontSize: "0.9rem",
+                  }}
+                >
+                  {color}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}
