@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { PRODUCTS, orderLink } from "../../data/products";
+import VariantPicker from "./VariantPicker";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ id: p.id }));
@@ -40,21 +41,12 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
           <p style={{ fontSize: "1.75rem", fontWeight: 700, margin: "1.25rem 0" }}>
             ${product.price} <span style={{ fontSize: "1rem", fontWeight: 400, color: "#888" }}>CAD</span>
           </p>
-          <a
-            href={buyHref}
-            style={{
-              display: "inline-block",
-              background: "#a78bfa",
-              color: "#0a0a0f",
-              fontWeight: 700,
-              padding: "0.9rem 2.5rem",
-              borderRadius: 999,
-              textDecoration: "none",
-              fontSize: "1.1rem",
-            }}
-          >
-            Buy
-          </a>
+          <VariantPicker
+            colors={product.colors}
+            sizes={product.sizes}
+            checkoutUrl={buyHref}
+            productName={product.name}
+          />
           <p style={{ marginTop: "2rem" }}>
             <a href="/" style={{ color: "#a78bfa" }}>← Back to the store</a>
           </p>
